@@ -3,6 +3,8 @@ extends layout
 block content
   .navigation
   .top-banner.blog
-  img.main(src='/img/03_main-content.png')
-  .swoosh
+  .main-content-blog.clickable
+    a(href="/").click-home
+    img.main(src='/img/03_main-content.png')
+  .swoosh.second-swoosh
   img.footer(src='/img/05_footer.png')

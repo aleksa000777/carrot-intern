@@ -3,12 +3,13 @@ extends layout
 block content
   .navigation
   .top-banner.home
-  img.main(src='/img/home/03_cards.png')
+  .cards.clickable
+    img.main(src='/img/home/03_cards.png')
+    a(href="/blog").click
   .swoosh.first-swoosh
-  img.main(src='/img/home/05_quote.png')
+  .quote
+    img.main(src='/img/home/05_quote.png')
   .tweets
   img.main(src='/img/home/07_coupon.png')
-  .swoosh
+  .swoosh.second-swoosh
   img.footer(src='/img/05_footer.png')
-  .click
-    a(href="/blog") Article HERE!! ->

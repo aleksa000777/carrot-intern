@@ -1,1 +1,7 @@
-console.log('you can use ES6 here : )')
+$(document).ready(()=>{
+  init();
+})
+
+function init(){
+  
+}
